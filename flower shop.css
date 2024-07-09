@@ -23,6 +23,9 @@
     border-radius: 8px;
     margin-top: 32px;
 }
+span {
+    color: rgb(229, 84, 115);
+}
 
 
 
@@ -132,11 +135,60 @@ header .container .img img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
     text-align: center;
 }
 .icons .container div p {
     color: rgba(39, 39, 39, 0.8);
     font-size: 24px;
     font-weight: 600;
+}
+
+/* hot deal section's style is here */
+.deal .container {
+    display: flex;
+    gap: 186px;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 390px 100px 429px;
+    text-align: center;
+}
+.deal .container .content {
+    margin-top: 130px;
+}
+
+.deal .container .content h3 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+}
+.deal .container .content p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+.insta .container {
+    text-align: center;
+    margin:  128px 240px 128px 240px;
+}
+.insta .container h3 {
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+}
+.insta .container p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px auto 48px auto;
+    width: 700px;
+}
+.insta .container .img-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 128px;
 }
