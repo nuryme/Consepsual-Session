@@ -60,3 +60,64 @@ header .container .img img{
     right: 240px;
     border: 1px dashed rgba(0, 0, 0, 0.1);
 }
+
+/* feature section's style is here */
+.feature {
+    text-align: center;
+    padding: 178px 240px 128px 240px;
+}
+.feature h3 {
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.feature .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.feature .container .content div {
+    height: 538px;
+    width: 464px;
+    margin-bottom: 32px;
+}
+.feature .container .content-1 div {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0 78px;
+    display: flex;
+}
+.feature .container .content-2 div {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0 78px;
+    display: flex;
+}
+.feature .container .content-2 img {
+    width: 370px;
+    height: 370px;
+}
+.feature .container .content-3 div {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0 78px;
+    display: flex;
+}
+.feature .container .content h5 {
+    color: rgb(39, 39, 39);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
+}
