@@ -136,6 +136,7 @@ header .container .img img{
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 100px;
 }
 .icons .container div p {
     color: rgba(39, 39, 39, 0.8);
