@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --bg: rgba(229, 84, 115, 0.1);
+    --btn: rgb(229, 84, 115);
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +10,53 @@
     text-decoration: none;
     font-family: 'poppins', 'sans-serif';
     box-sizing: border-box;
+}
+
+
+#btn {
+    padding: 20px 43px;
+    background-color: var(--btn);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+
+
+/* header section's style is here */
+header .container{
+    display: flex;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.1);
+    padding: 0 240px;
+    justify-content: space-between;
+    position: relative;
+}
+header .container .content {
+    width: 730px;
+    margin: 197px 0 147px 0 ;
+}
+header .container .content h1 {
+    color: rgb(39, 39, 39);
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    text-align: left;
+}
+header .container .content p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 32px;
+}
+header .container .img img{
+    position: absolute;
+    bottom: 0;
+    right: 240px;
+    border: 1px dashed rgba(0, 0, 0, 0.1);
 }
