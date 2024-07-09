@@ -169,6 +169,8 @@ header .container .img img{
     line-height: 30px;
     margin-top: 24px;
 }
+
+/* instagram section's style is here */
 .insta .container {
     text-align: center;
     margin:  128px 240px 128px 240px;
@@ -191,4 +193,52 @@ header .container .img img{
     justify-content: space-between;
     gap: 24px;
     margin-bottom: 128px;
+}
+.insta .container .form-container {
+    background-image: url('images/latest-deals-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 122px 0;
+}
+.insta .container .form-container p {
+    margin-top: 16px;
+}
+.insta .container .form-container .form {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.insta .container .form-container .form input {
+    padding: 22px 513px 22px 22px;
+    border-radius: 8px;
+}
+.insta .container .form-container .form #btn {
+    margin: 0;
+}
+
+/* footer section's style is here */
+footer {
+    background: rgb(17, 16, 16);
+    text-align: center;
+    padding: 128px 0;
+}
+footer h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    color: white;
+}
+footer p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+footer .rights {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
 }
