@@ -120,4 +120,23 @@ header .container .img img{
     text-decoration-line: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 1px;
+    text-transform: capitalize;
+}
+
+/* icons section's style is here */
+.icons .container{
+    height: 320px;
+    margin: 0 240px 128px 240px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+}
+.icons .container div p {
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 24px;
+    font-weight: 600;
 }
